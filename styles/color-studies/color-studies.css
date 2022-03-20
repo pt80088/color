@@ -1,0 +1,35 @@
+:root {
+  --grey-nav-menu: rgba(24, 24, 24, 0.8);
+
+  --grey-a: rgb(189, 189, 189);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--grey-nav-menu);
+  color: var(--grey-a);
+}
+
+#quote {
+}
+
+.color {
+  height: 100vh;
+  width: 100vw;
+}
+
+#a {
+  background-color: var(--grey-a);
+}
+
+#b {
+}
